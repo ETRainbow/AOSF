@@ -7,7 +7,7 @@ master分支与官方源码分支仅有的两处区别：
 2. settings.gradle 内新增模块包含 include ‘analysis’
 
 有需要的可以直接拉去master 分支代码使用。
-分支拉取后，需要IDEA配置，详情见博客(https://blog.csdn.net/weixin_44223435/article/details/103779176)中的 【 2.4 构建项目】。
+分支拉取后，需要IDEA配置，详情见博客( https://blog.csdn.net/weixin_44223435/article/details/103779176 )中的 【 2.4 构建项目】。
 
 
 
