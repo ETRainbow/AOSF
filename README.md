@@ -1,3 +1,16 @@
+## master 分支使用说明
+Spring Framework 5.2.2 本人构建过的源码环境可见本人gitHub地址：
+https://github.com/ETRainbow/AOSF
+其中 master 分支为官方源码 + 自己创建的一个测试子module，
+master分支与官方源码分支仅有的两处区别：
+1. 新增了自己写的测试模块analysis
+2. settings.gradle 内新增模块包含 include ‘analysis’
+
+有需要的可以直接拉去master 分支代码使用。
+分支拉取后，需要IDEA配置，详情见博客(https://blog.csdn.net/weixin_44223435/article/details/103779176)中的 【 2.4 构建项目】。
+
+
+
 # <img src="src/docs/asciidoc/images/spring-framework.png" width="80" height="80"> Spring Framework [![Build Status](https://build.spring.io/plugins/servlet/wittified/build-status/SPR-PUBM)](https://build.spring.io/browse/SPR)
 
 This is the home of the Spring Framework: the foundation for all [Spring projects](https://spring.io/projects). Collectively the Spring Framework and the family of Spring projects are often referred to simply as "Spring". 
