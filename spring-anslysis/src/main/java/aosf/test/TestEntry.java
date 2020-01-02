@@ -1,6 +1,6 @@
-package com.aosf.test;
+package aosf.test;
 
-import com.aosf.MyConfig;
+import aosf.MyConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**

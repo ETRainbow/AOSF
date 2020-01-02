@@ -1,4 +1,4 @@
-package com.aosf.test;
+package aosf.test;
 
 import org.springframework.stereotype.Component;
 
