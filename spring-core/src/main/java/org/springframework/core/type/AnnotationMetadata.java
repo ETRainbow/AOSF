@@ -53,7 +53,7 @@ public interface AnnotationMetadata extends ClassMetadata, AnnotatedTypeMetadata
 	}
 
 	/**
-	 * Get the fully qualified class names of all meta-annotation types that
+	 * Get the fully qualified class names of all meta-annotation types that 获取基础类上给定注释类型上存在的所有元注释类型的完全限定类名。
 	 * are <em>present</em> on the given annotation type on the underlying class.
 	 * @param annotationName the fully qualified class name of the meta-annotation
 	 * type to look for

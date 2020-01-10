@@ -451,8 +451,15 @@ abstract class AnnotationsScanner {
 		return null;
 	}
 
+	/**
+	 *  获取该类上的所有注解
+	 * @param source 注解类
+	 * @param defensive
+	 * @return
+	 */
 	static Annotation[] getDeclaredAnnotations(AnnotatedElement source, boolean defensive) {
 		boolean cached = false;
+		// 获取该类上的所有注解
 		Annotation[] annotations = declaredAnnotationCache.get(source);
 		if (annotations != null) {
 			cached = true;
