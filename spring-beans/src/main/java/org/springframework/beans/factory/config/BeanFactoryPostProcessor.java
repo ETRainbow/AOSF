@@ -63,6 +63,12 @@ import org.springframework.beans.BeansException;
 public interface BeanFactoryPostProcessor {
 
 	/**
+	 *
+	 *  Spring初始化bean时对外暴露的扩展点
+	 *
+	 * 在应用程序上下文的内部bean工厂的标准初始化之后修改它。所有bean定义都将被加载，但没有bean 已经被实例化了。
+	 * 这允许重写或添加属性，甚至可以对bean进行初始化。
+	 *
 	 * Modify the application context's internal bean factory after its standard
 	 * initialization. All bean definitions will have been loaded, but no beans
 	 * will have been instantiated yet. This allows for overriding or adding

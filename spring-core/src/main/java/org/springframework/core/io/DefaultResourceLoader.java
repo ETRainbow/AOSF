@@ -62,6 +62,7 @@ public class DefaultResourceLoader implements ResourceLoader {
 	 * @see java.lang.Thread#getContextClassLoader()
 	 */
 	public DefaultResourceLoader() {
+		//classLoader 它是用来加载 Class 的。它负责将 Class 的字节码形式转换成内存形式的 Class 对象。
 		this.classLoader = ClassUtils.getDefaultClassLoader();
 	}
 
